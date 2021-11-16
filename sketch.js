@@ -1,9 +1,7 @@
 var trex, trex_running, edges;
-var groundImage;
 
 function preload(){
   trex_running = loadAnimation("trex1.png","trex3.png","trex4.png");
-  groundImage = loadImage("ground2.png")
 }
 
 function setup(){
